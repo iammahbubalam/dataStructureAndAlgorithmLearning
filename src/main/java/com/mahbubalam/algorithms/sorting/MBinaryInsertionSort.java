@@ -1,6 +1,6 @@
 package com.mahbubalam.algorithms.sorting;
 
-public class BinaryInsertionSort {
+public class MBinaryInsertionSort {
 
 
         // iterative implementation

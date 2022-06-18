@@ -1,7 +1,9 @@
 package com.mahbubalam.algorithms.sorting;
 
-public class InsertionSort {
-   public static void sort(int arr[]){
+import org.jetbrains.annotations.NotNull;
+
+public class MInsertionSort {
+   public static void sort(@NotNull int arr[]){
         int n = arr.length;
        for (int i = 1; i < n; i++) {
            int temp = arr[i];
