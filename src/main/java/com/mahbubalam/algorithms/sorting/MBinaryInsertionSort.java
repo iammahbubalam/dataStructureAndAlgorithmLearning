@@ -1,10 +1,8 @@
 package com.mahbubalam.algorithms.sorting;
 
-public class MBinaryInsertionSort {
+public class MBinaryInsertionSort extends Sort{
 
-
-        // iterative implementation
-        static int binarySearch(int a[], int item, int low, int high)
+        static int binarySearch(int[] a, int item, int low, int high)
         {
             while (low <= high) {
                 int mid = low + (high - low) / 2;
@@ -19,10 +17,11 @@ public class MBinaryInsertionSort {
         }
 
         // Function to sort an array a[] of size 'n'
-        static void insertionSort(int a[], int n)
+        @Override
+        public void sort(int[] a)
         {
-            int i, loc, j, k, selected;
-
+            int i, loc, j, selected;
+            int n= a.length;
             for (i = 1; i < n; ++i) {
                 j = i - 1;
                 selected = a[i];
@@ -38,26 +37,19 @@ public class MBinaryInsertionSort {
                 a[j + 1] = selected;
             }
         }
-    static void printArray(int arr[])
-    {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
-
-        System.out.println();
-    }
 
         // Driver Code
         public static void main (String[] args)
         {
-            int a[]= new int[500];
+            int[] a = new int[500];
             for(int i = 0; i < 500; i++) {
                 a[i] = (int)(Math.random() * 500)+1;
             }
 
-            insertionSort(a, a.length);
+            new MBinaryInsertionSort().sort(a);
             printArray(a);
         }
+
     }
 
 
