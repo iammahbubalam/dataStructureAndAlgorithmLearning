@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e53a7232-0e0b-465e-ad2c-afdbf3b3f324" name="Changes" comment="restructure class">
+    <list default="true" id="e53a7232-0e0b-465e-ad2c-afdbf3b3f324" name="Changes" comment="restructure class 2">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MMargeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MInsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MergeSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/lib/jvm/jdk-18/lib/src.zip!/java.base/java/util/NoSuchElementException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-18/lib/src.zip!/java.base/java/util/OptionalInt.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,9 +55,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MBubbleSort">
-    <configuration name="MBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MBubbleSort" />
+  <component name="RunManager" selected="Application.MQuickSort">
+    <configuration name="MQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MQuickSort" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MInsertionSort" />
+    <configuration name="com.mahbubalam.algorithms.sorting.CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.CountingSort" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +82,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mahbubalam.algorithms.sorting.MBinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MBinaryInsertionSort" />
+    <configuration name="com.mahbubalam.algorithms.sorting.MCountingSortThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MCountingSortThree" />
+      <module name="dataStructureAndAlgorithmLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mahbubalam.algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mahbubalam.algorithms.sorting.MCountingSortTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MCountingSortTwo" />
+      <module name="dataStructureAndAlgorithmLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mahbubalam.algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mahbubalam.algorithms.sorting.MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MergeSort" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
@@ -85,9 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MBubbleSort" />
-        <item itemvalue="Application.com.mahbubalam.algorithms.sorting.MBinaryInsertionSort" />
-        <item itemvalue="Application.MInsertionSort" />
+        <item itemvalue="Application.MQuickSort" />
+        <item itemvalue="Application.com.mahbubalam.algorithms.sorting.MergeSort" />
+        <item itemvalue="Application.com.mahbubalam.algorithms.sorting.MCountingSortThree" />
+        <item itemvalue="Application.com.mahbubalam.algorithms.sorting.MCountingSortTwo" />
+        <item itemvalue="Application.com.mahbubalam.algorithms.sorting.CountingSort" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +142,11 @@
       <workItem from="1655494295841" duration="2107000" />
       <workItem from="1655541639681" duration="9315000" />
       <workItem from="1655652807152" duration="12215000" />
-      <workItem from="1655910155828" duration="1357000" />
+      <workItem from="1655910155828" duration="2024000" />
+      <workItem from="1656087492732" duration="514000" />
+      <workItem from="1656185581558" duration="2336000" />
+      <workItem from="1656245708577" duration="7010000" />
+      <workItem from="1656275248516" duration="22371000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655574019637</created>
@@ -125,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655755284654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="restructure class 2">
+      <created>1655919390456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655919390456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +196,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="restructure class" />
-    <option name="LAST_COMMIT_MESSAGE" value="restructure class" />
+    <MESSAGE value="restructure class 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructure class 2" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dataStructureAndAlgorithmLearning$MergeSort.ic" NAME="MergeSort Coverage Results" MODIFIED="1656187284724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mahbubalam.algorithms.sorting.*</FILTER>
+    </SUITE>
   </component>
 </project>
