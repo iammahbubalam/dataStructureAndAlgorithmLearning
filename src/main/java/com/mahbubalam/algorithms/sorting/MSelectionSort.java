@@ -23,7 +23,7 @@ public class MSelectionSort extends Sort  {
             a[i] = (int)(Math.random() * 500)+1;
         }
 
-        new MBubbleSort().sort(a);
+        new MSelectionSort().sort(a);
         printArray(a);
     }
 
