@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e53a7232-0e0b-465e-ad2c-afdbf3b3f324" name="Changes" comment="greedy added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/dp/CoinChange.java" afterDir="false" />
+    <list default="true" id="e53a7232-0e0b-465e-ad2c-afdbf3b3f324" name="Changes" comment="dp added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSumOfEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CountInversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/FindMaxMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/MargeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/PrintOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/XToThePowerY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/greedy/HuffmanCoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +59,13 @@
       <recent name="E:\IdeaProjects\dataStructureAndAlgorithmLearning\src\main\java\com\mahbubalam\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.dp.CoinChange" />
+  <component name="RunManager" selected="Application.CountInversion">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.divideandconquer.BinarySearch" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mahbubalam.algorithms.dp.*" />
+          <option name="PATTERN" value="com.mahbubalam.algorithms.divideandconquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountNumberOfDigitsInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.recurtion.CountNumberOfDigitsInteger" />
+    <configuration name="CountInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.divideandconquer.CountInversion" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mahbubalam.algorithms.recurtion.*" />
+          <option name="PATTERN" value="com.mahbubalam.algorithms.divideandconquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.recurtion.CountPrime" />
+    <configuration name="FindMaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.divideandconquer.FindMaxMin" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mahbubalam.algorithms.recurtion.*" />
+          <option name="PATTERN" value="com.mahbubalam.algorithms.divideandconquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCD_LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.recurtion.GCD_LCM" />
+    <configuration name="MMargeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MMargeSort" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mahbubalam.algorithms.recurtion.*" />
+          <option name="PATTERN" value="com.mahbubalam.algorithms.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.recurtion.Palindrome" />
+    <configuration name="XToThePowerY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.divideandconquer.XToThePowerY" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mahbubalam.algorithms.recurtion.*" />
+          <option name="PATTERN" value="com.mahbubalam.algorithms.divideandconquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.CountPrime" />
-        <item itemvalue="Application.CountNumberOfDigitsInteger" />
-        <item itemvalue="Application.GCD_LCM" />
-        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.CountInversion" />
+        <item itemvalue="Application.MMargeSort" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.FindMaxMin" />
+        <item itemvalue="Application.XToThePowerY" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +175,9 @@
       <workItem from="1668091640947" duration="6291000" />
       <workItem from="1668271536460" duration="1753000" />
       <workItem from="1668273980028" duration="1928000" />
-      <workItem from="1668368439853" duration="1252000" />
+      <workItem from="1668368439853" duration="1437000" />
+      <workItem from="1668604598044" duration="10720000" />
+      <workItem from="1668694174430" duration="3812000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655574019637</created>
@@ -217,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668285065556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dp added">
+      <created>1668370615566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668370615566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +259,8 @@
     <MESSAGE value="exam" />
     <MESSAGE value="some more problems" />
     <MESSAGE value="greedy added" />
-    <option name="LAST_COMMIT_MESSAGE" value="greedy added" />
+    <MESSAGE value="dp added" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dataStructureAndAlgorithmLearning$MergeSort.ic" NAME="MergeSort Coverage Results" MODIFIED="1656187284724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
