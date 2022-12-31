@@ -1,12 +1,12 @@
 package com.mahbubalam.algorithms.datastructure.stack;
 
-public class IntStack implements Stack{
+public class IntStack implements Stack {
 
     int[] array;
-    int top=0;
+    int top = 0;
 
     public IntStack(int maxSize) {
-        array= new int[maxSize];
+        array = new int[maxSize];
     }
 
     @Override
@@ -16,7 +16,7 @@ public class IntStack implements Stack{
 
     @Override
     public boolean isEmpty() {
-        return size()==0;
+        return size() == 0;
     }
 
     @Override
@@ -32,6 +32,6 @@ public class IntStack implements Stack{
 
     @Override
     public int peek() {
-        return array[top-1];
+        return array[top - 1];
     }
 }

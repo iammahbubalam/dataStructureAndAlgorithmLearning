@@ -5,17 +5,19 @@ public class SinglyLinkedList {
     private Node head;
     private Node tail;
 
-    class Node {
-        private int data;
-        private Node next;
-        public Node(int data, Node next) {
-            this.data = data;
-            this.next = next;
+    public static void main(String[] args) throws Exception {
+        SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
+        for (int i = 0; i < 10; i++) {
+            singlyLinkedList.add(i);
         }
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
+//        System.out.println(singlyLinkedList.delete(5));
+//        System.out.println(singlyLinkedList.deleteFirst());
+//        System.out.println(singlyLinkedList.deleteLast());
+        singlyLinkedList.addAt(78, 3);
+        singlyLinkedList.printLinkedList();
+        singlyLinkedList.deleteAt(3);
+        singlyLinkedList.printLinkedList();
+//        System.out.println(singlyLinkedList.size);
     }
 
     public int size() {
@@ -103,22 +105,23 @@ public class SinglyLinkedList {
         return value;
     }
 
-public int deleteAt(int index) throws Exception {
-    if (index > size || index < 0) throw new Exception("index not found");
-    if (index == 0) return deleteFirst();
-    if (index == size) return  deleteLast();
+    public int deleteAt(int index) throws Exception {
+        if (index > size || index < 0) throw new Exception("index not found");
+        if (index == 0) return deleteFirst();
+        if (index == size) return deleteLast();
 
-    Node temp = head;
-    for (int i = 0; i < index - 1; i++) {
-        temp = temp.next;
-    }//012345
-    Node deletable = temp.next;
-    temp.next=deletable.next;
-    int value = deletable.data;
-    deletable=null;
-    size--;
-return value;
-}
+        Node temp = head;
+        for (int i = 0; i < index - 1; i++) {
+            temp = temp.next;
+        }//012345
+        Node deletable = temp.next;
+        temp.next = deletable.next;
+        int value = deletable.data;
+        deletable = null;
+        size--;
+        return value;
+    }
+
     public int deleteFirst() {
         Node temp = head;
         head = head.next;
@@ -133,10 +136,12 @@ return value;
         if (isEmpty()) throw new RuntimeException("Empty list");
         return tail.data;
     }
+
     public int peekFirst() {
         if (isEmpty()) throw new RuntimeException("Empty list");
         return head.data;
     }
+
     private Node searchPrevNode(int data) {
 
         for (Node temp = head; temp.next.next != null; temp = temp.next) {
@@ -162,18 +167,18 @@ return value;
 
     }
 
-    public static void main(String[] args) throws Exception {
-        SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
-        for (int i = 0; i < 10; i++) {
-            singlyLinkedList.add(i);
+    class Node {
+        private int data;
+        private Node next;
+
+        public Node(int data, Node next) {
+            this.data = data;
+            this.next = next;
         }
-//        System.out.println(singlyLinkedList.delete(5));
-//        System.out.println(singlyLinkedList.deleteFirst());
-//        System.out.println(singlyLinkedList.deleteLast());
-        singlyLinkedList.addAt(78,3);
-        singlyLinkedList.printLinkedList();
-        singlyLinkedList.deleteAt(3);
-        singlyLinkedList.printLinkedList();
-//        System.out.println(singlyLinkedList.size);
+
+        public Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
     }
 }

@@ -5,17 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e53a7232-0e0b-465e-ad2c-afdbf3b3f324" name="Changes" comment="dp added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSumOfEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CountInversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/FindMaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/MargeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/PrintOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/XToThePowerY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/greedy/HuffmanCoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/dp/MinCoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/MinCoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/linkedlist/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/linkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/linkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/linkedlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/queue/IntQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/queue/IntQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/stack/IntStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/datastructure/stack/IntStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/disjointset/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/disjointset/DisjointSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSumOfEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/CalculateSumOfEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/FindMaxMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/FindMaxMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/MargeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/MargeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/PrintOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/PrintOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/XToThePowerY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/divideandconquer/XToThePowerY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/dp/CoinChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/CountNumberOfDigitsInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/CountNumberOfDigitsInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/CountPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/CountPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/DigitCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/DigitCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/DigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/DigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/GCD_LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/GCD_LCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/MaxFrom2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/MaxFrom2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/PrintEvenGivenRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/PrintEvenGivenRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/RecursiveArrayProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/RecursiveArrayProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/SumOfPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/SumOfPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/SumOfSeriesUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/SumOfSeriesUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/XPowerY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/recurtion/XPowerY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/searching/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/searching/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MBinaryInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MBinaryInsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MBubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MCountingSortTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MInsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MMargeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MMargeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/MSelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mahbubalam/algorithms/sorting/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +80,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/IdeaProjects/online-judge-problem-solving&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IdeaProjects/dataStructureAndAlgorithmLearning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -59,7 +96,7 @@
       <recent name="E:\IdeaProjects\dataStructureAndAlgorithmLearning\src\main\java\com\mahbubalam\algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountInversion">
+  <component name="RunManager" selected="Application.com.mahbubalam.algorithms.dp.MinCoinChange">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.divideandconquer.BinarySearch" />
       <module name="dataStructureAndAlgorithmLearning" />
@@ -86,19 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.divideandconquer.FindMaxMin" />
-      <module name="dataStructureAndAlgorithmLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mahbubalam.algorithms.divideandconquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MMargeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.sorting.MMargeSort" />
       <module name="dataStructureAndAlgorithmLearning" />
@@ -112,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XToThePowerY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.divideandconquer.XToThePowerY" />
+    <configuration name="MinCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.recurtion.MinCoinChange" />
       <module name="dataStructureAndAlgorithmLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mahbubalam.algorithms.divideandconquer.*" />
+          <option name="PATTERN" value="com.mahbubalam.algorithms.recurtion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mahbubalam.algorithms.dp.MinCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mahbubalam.algorithms.dp.MinCoinChange" />
+      <module name="dataStructureAndAlgorithmLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mahbubalam.algorithms.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.mahbubalam.algorithms.dp.MinCoinChange" />
+        <item itemvalue="Application.MinCoinChange" />
         <item itemvalue="Application.CountInversion" />
         <item itemvalue="Application.MMargeSort" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.FindMaxMin" />
-        <item itemvalue="Application.XToThePowerY" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +215,8 @@
       <workItem from="1668368439853" duration="1437000" />
       <workItem from="1668604598044" duration="10720000" />
       <workItem from="1668694174430" duration="3812000" />
+      <workItem from="1672236743417" duration="7819000" />
+      <workItem from="1672322386806" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1655574019637</created>

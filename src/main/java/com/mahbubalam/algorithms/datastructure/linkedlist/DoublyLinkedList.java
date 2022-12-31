@@ -5,16 +5,26 @@ public class DoublyLinkedList {
     private Node head;
     private Node tail;
 
-    class Node {
-        private int data;
-        private Node next, prev;
-
-
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-            this.prev = null;
+    public static void main(String[] args) throws Exception {
+        DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
+        for (int i = 0; i < 10; i++) {
+            doublyLinkedList.add(i);
         }
+        System.out.println(doublyLinkedList.delete(5));
+        System.out.println();
+        System.out.println(doublyLinkedList.deleteFirst());
+        System.out.println();
+        System.out.println(doublyLinkedList.deleteLast());
+        System.out.println();
+        doublyLinkedList.addAt(78, 3);
+        System.out.println();
+        doublyLinkedList.printLinkedList();
+        System.out.println();
+        doublyLinkedList.deleteAt(3);
+        System.out.println();
+        doublyLinkedList.printLinkedList();
+        System.out.println();
+        System.out.println(doublyLinkedList.size);
     }
 
     public int size() {
@@ -44,8 +54,8 @@ public class DoublyLinkedList {
         if (isEmpty()) {
             head = tail = new Node(data);
         } else {
-           head.prev = new Node(data);
-            head.prev.next=head;
+            head.prev = new Node(data);
+            head.prev.next = head;
             head = head.prev;
         }
         size++;
@@ -61,8 +71,8 @@ public class DoublyLinkedList {
             temp = temp.next;
         }
         Node newNode = new Node(data);
-        newNode.next=temp.next;
-        newNode.prev=temp;
+        newNode.next = temp.next;
+        newNode.prev = temp;
         temp.next.prev = newNode;
         temp.next = newNode;
         size++;
@@ -72,8 +82,8 @@ public class DoublyLinkedList {
         if (head.data == data) return deleteFirst();
         if (tail.data == data) return deleteLast();
         Node node = search(new Node(data));
-        node.prev.next=node.next;
-        node.next.prev=node.prev;
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
 
         int value = node.data;
         node = null;
@@ -92,9 +102,9 @@ public class DoublyLinkedList {
         }
 
 
-        Node temp=tail;
-        tail= tail.prev;
-        tail.next=null;
+        Node temp = tail;
+        tail = tail.prev;
+        tail.next = null;
 
         value = temp.data;
         temp = null;
@@ -108,8 +118,8 @@ public class DoublyLinkedList {
         if (index == size) return deleteLast();
 
         Node node = search(index);
-        node.prev.next=node.next;
-        node.next.prev=node.prev;
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
         int value = node.data;
         node = null;
         size--;
@@ -119,7 +129,7 @@ public class DoublyLinkedList {
     public int deleteFirst() {
         Node temp = head;
         head = head.next;
-        head.prev=null;
+        head.prev = null;
         temp.next = null;
         int value = temp.data;
         size--;
@@ -146,9 +156,9 @@ public class DoublyLinkedList {
 
     private Node search(int index) {
 
-        Node node=head;
+        Node node = head;
         for (int i = 0; i < index; i++) {
-            node=node.next;
+            node = node.next;
         }
         return node;
     }
@@ -161,26 +171,17 @@ public class DoublyLinkedList {
         }
 
     }
-    public static void main(String[] args) throws Exception {
-        DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
-        for (int i = 0; i < 10; i++) {
-            doublyLinkedList.add(i);
+
+    class Node {
+        private int data;
+        private Node next, prev;
+
+
+        public Node(int data) {
+            this.data = data;
+            this.next = null;
+            this.prev = null;
         }
-        System.out.println(doublyLinkedList.delete(5));
-        System.out.println();
-        System.out.println(doublyLinkedList.deleteFirst());
-        System.out.println();
-        System.out.println(doublyLinkedList.deleteLast());
-        System.out.println();
-        doublyLinkedList.addAt(78,3);
-        System.out.println();
-        doublyLinkedList.printLinkedList();
-        System.out.println();
-        doublyLinkedList.deleteAt(3);
-        System.out.println();
-        doublyLinkedList.printLinkedList();
-        System.out.println();
-        System.out.println(doublyLinkedList.size);
     }
 
 }

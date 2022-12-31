@@ -1,7 +1,16 @@
 package com.mahbubalam.algorithms.sorting;
 
 
-public class MInsertionSort  extends  Sort {
+public class MInsertionSort extends Sort {
+
+    public static void main(String[] args) {
+        int[] a = new int[500000000];
+        for (int i = 0; i < 500000000; i++)
+            a[i] = (int) (Math.random() * 500000000) + 1;
+
+        new MInsertionSort().sort(a);
+        printArray(a);
+    }
 
     @Override
     public void sort(int[] array) {
@@ -15,16 +24,6 @@ public class MInsertionSort  extends  Sort {
             }
             array[j + 1] = temp;
         }
-    }
-
-
-    public static void main(String[] args) {
-        int[] a = new int[500000000];
-        for (int i = 0; i < 500000000; i++)
-            a[i] = (int) (Math.random() * 500000000) + 1;
-
-        new MInsertionSort().sort(a);
-        printArray(a);
     }
 
 
